@@ -1,0 +1,90 @@
+ html, body {
+    min-width: 460px;
+    overflow-x: hidden;
+    font-family: 'Arial', sans-serif;
+    height: 100%;
+ }
+
+ .page-bg {
+ background: url('back.png') no-repeat center;
+ background-size: cover;
+ }
+.page{
+width: 60%;
+background-color: white;
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
+width: 460px;
+min-height: 440px;
+padding: 35px;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);   
+}
+
+.header-main{
+font-family: Arial;
+color:  #1b1c1d;
+font-size: 24px;
+font-weight: 700;
+line-height: 20px;
+text-align: left;
+}
+.header-text{
+font-family: Arial;
+color:  #797b7f;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+
+}
+.link{
+font-family: Arial;
+color:  #ea355a;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+text-decoration: none;
+}
+p {
+font-weight: 400;
+line-height: 20px;
+text-align: left;
+margin-bottom: 35px;    
+
+}
+.email, .pass, .lastname, .name {
+border-radius: 4px;
+padding: 10px;
+border:none;
+color:  #797b7f;
+font-size: 14px;
+line-height: 20px;
+text-align: left;
+margin-bottom: 15px;
+background-color:  #f0f0f0;
+font-weight: 400;
+
+}
+
+.name, .lastname {
+    width: 43%;
+}
+.email, .pass{
+    width: 91%;
+}
+.submit{
+    background-color:  #ea355a;
+box-shadow: 0px 3px 0px 0px #bd1962;
+width: 91%;
+height: 50px;
+border:none;
+font-family: Arial;
+color:  #ffffff;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+text-align: center;
+}
